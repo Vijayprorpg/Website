@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    font-family: segoe UI, sans-serif;
+    color: #fcfcfc;
+    border: 2px solid rgb(237, 14, 14);
+    display: flow-root;
+}
+
+#PVPGaming {
+    color: rgb(2252 114 0);
+    text-align: center;
+    font-family: Minecraft, segoe UI, sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 0px 15px yellow;
+}
+
+h3 {
+    text-align: center;
+    font-family: Minecraft, segoe UI, sans-serif;
+    display: flex;
+    color: #2dcd2dd6;
+    text-shadow: 0px 0px 11px #0ede50;
+}
+
+.video {
+    align-content: center;
+    /* display: flex; */
+    justify-content: right;
+    float: right;
+
+}
+
+.Logo {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+@keyframes Logoanimation {
+    from {
+        
+    }
+
+    to {
+        transform: translatex(3px);
+        box-shadow: 0px 0px 20px hsla(139, 84%, 25%, 0.508);
+    }
+
+}
+
+
+.sticky {
+    background-color: #000000;
+    position: sticky;
+    top: 0px
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    float: right;
+    position: sticky;
+    z-index: 1;
+}
+
+* {
+    margin: 0;
+    padding: o;
+}
+
+.hello {
+    animation: Logoanimation 1ms ease-in-out 0s infinite alternate-reverse;
+    box-shadow: #0ede50;
+}
